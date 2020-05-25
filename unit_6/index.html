@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Ryan's Beef Noodles</title>
 </head>
@@ -14,12 +15,14 @@
             <a href="#">Our Food</a>
             <a href="#">What's Happening</a>
             <a href="#">Contact us</a>
+            <address>Tampines Street 71 Block 725 #01-11</address>
         </nav>
-        <address>Tampines Street 71 Block 725 #01-11</address>
     </header>
     <section>
         <h1> The Best Beef Noodles In Town!</h1>
+        <div id="hero">
         <img src="images/beefnoodles.jpg"alt="Beef Noodle Picture"title="Beef Noodles">
+        </div>
     </section>
     <section>
         <h2 class="title">About Us</h2>
@@ -28,8 +31,9 @@
     </section> 
     <section>
         <h2 class="title"> Our Food </h2>
-            <h3 class="subtitle"> Our Mains </h3>
-                <ul>
+        <div class="column" id="ourmains">
+            <h3 class="subtitle">Our Mains</h3>
+              <ul>
                 <li>
                     <h4>Original Beef Noodles</h4>
                     <p>The Classic choice that has the same good flavors since 1978</p>
@@ -60,7 +64,9 @@
                     <p>Premium quality Kobe Beef served on top of our classic Beef Noodles</p>
                     <p>$19.99</p>
                 </li>
-            <h3 class="subtitle"> Add Ons </h3>
+        </div>
+        <div class="column" id="addons">
+            <h3 class="subtitle">Add Ons</h3>
                 <li> 
                     <h4>Extra Handmade Noodles (150g)</h4> 
                     <p>$1.50</p>
@@ -81,7 +87,9 @@
                     <h4>Extra Soup</h4> 
                     <p>FREE OF CHARGE!</p>
                 </li>
-            <h3 class="subtitle"> Beverages </h3>
+        </div>
+        <div class="column" id="beverages">
+            <h3 class="subtitle">Beverages</h3>
                 <li> 
                     <h4>Iced Water</h4>
                     <p>FREE OF CHARGE</p>
@@ -94,7 +102,8 @@
                     <h4>Bottled/Canned Drinks</h4>
                     <p>$2.00</p>
                 </li>
-                </ul>
+              </ul>
+        </div>
     </section>
     <section>
         <h2 class="title"> Whats Happening? </h2>
@@ -116,7 +125,7 @@
         <h2 class="title"> Contact Us </h2>
             <div>
             <h3>Our Social Media Platforms!</h3>
-                <img src="images/facebook.png"><img src="images/instagram.png"><img src="images/twitter.png">
+                <img class="socialmedia" src="images/facebook.png"><img class="socialmedia" src="images/instagram.png"><img class="socialmedia" src="images/twitter.png">
             </div>
             <div>
             <h3>Find Us </h3>

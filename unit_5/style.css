@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
@@ -81,32 +80,32 @@ h4{font-color:#87C4FF
    
     }
 
-header {
+header{
   background-color: #FFED74;
   border: 1px black solid;
   padding: 20px;
 }
-nav {
+nav{
   background-color: #E8C66A;
   border: 1px black solid;
   padding: 20px;
 }
-aside {
+aside{
   background-color: #FFC675;
   border: 1px black solid;
   padding: 20px;
 }
-section {
+section{
   background-color: #E89C6C;
   border: 1px black solid;
   padding: 20px;
 }
-footer {
+footer{
   background-color: #FF957E;
   border: 1px black solid;
   padding: 20px;
 }
-div {
+div{
   background-color: #FFE2B8;
   border: 1px black solid;
   padding: 20px;

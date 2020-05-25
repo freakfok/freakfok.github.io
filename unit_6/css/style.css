@@ -1,0 +1,70 @@
+nav {
+  background-color: #aaaaaa;
+  font family: Arial, sans-serif;
+}
+
+nav a{
+  text-decoration:none;
+  color:#000000;
+  margin:1.8em;
+}
+
+a{
+  background-color: #ff7900;
+  color: white;
+  text-decoration: none;
+  display:block;
+  padding: 10px;
+  width: 200px;
+}
+
+a:hover {
+  background-color:#aaaaaa;
+}
+
+.column {
+  float: left;
+  height: 300px;
+  padding: 2%;
+  margin: 0;
+  width:29%;
+}
+
+#ourmains {
+  background-color:#AC54FF;
+}
+
+#addons {
+  background-color: #5485FF;
+}
+
+#beverages{
+  background-color: #47FFF2;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display:block;
+  font-size: 0;
+  content: " ";
+  clear:both;
+  height: 0;
+}
+
+li{
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 720px;
+} 
+
+.socialmedia {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  display:inline-block;
+
+}
