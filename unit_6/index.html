@@ -2,15 +2,14 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Ryan's Beef Noodles</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="#">Ryan's Beef Noodles</a>
+        <nav class="clearfix">
+            <a href="#">Home</a>
             <a href="#">About Us</a>
             <a href="#">Our Food</a>
             <a href="#">What's Happening</a>
@@ -19,17 +18,19 @@
         </nav>
     </header>
     <section>
-        <h1> The Best Beef Noodles In Town!</h1>
+        <h1>The Best Beef Noodles In Town!</h1>
         <div id="hero">
         <img src="images/beefnoodles.jpg"alt="Beef Noodle Picture"title="Beef Noodles">
         </div>
     </section>
-    <section>
+    <section class="clearfix">
         <h2 class="title">About Us</h2>
             <h2>How it all started</h2>
+                <div class="description" id="history">
                 <p>A traditionally run family business that dates back to 1978. The originator of this store was Billy Fok who started this business back in 1978 in Hong Kong and its legacy has since been passed down to his Son Ryan Fok and he has been carrying on his fathers legacy ever since, maintaining the same great flavors from the past.</p>
+                </div>
     </section> 
-    <section>
+    <section class="clearfix">
         <h2 class="title"> Our Food </h2>
         <div class="column" id="ourmains">
             <h3 class="subtitle">Our Mains</h3>
@@ -64,9 +65,11 @@
                     <p>Premium quality Kobe Beef served on top of our classic Beef Noodles</p>
                     <p>$19.99</p>
                 </li>
+              </ul>
         </div>
         <div class="column" id="addons">
             <h3 class="subtitle">Add Ons</h3>
+              <ul>
                 <li> 
                     <h4>Extra Handmade Noodles (150g)</h4> 
                     <p>$1.50</p>
@@ -87,9 +90,11 @@
                     <h4>Extra Soup</h4> 
                     <p>FREE OF CHARGE!</p>
                 </li>
+              </ul>
         </div>
         <div class="column" id="beverages">
             <h3 class="subtitle">Beverages</h3>
+              <ul>
                 <li> 
                     <h4>Iced Water</h4>
                     <p>FREE OF CHARGE</p>
@@ -106,36 +111,38 @@
         </div>
     </section>
     <section>
-        <h2 class="title"> Whats Happening? </h2>
-            <h3 class="subtitle">Latest Deals </h3>
-                <div>
+        <h2 class="title">Whats Happening?</h2>
+            <h3 class="subtitle">Latest Deals</h3>
+                <div class=deals id=deals1>
                 <h4>It's our opening month!</h4>
                     <p> All our main dishes storewide are subjected to 30% discounts!</p>
                 </div>
-                <div>
+                <div class=deals id=deals2>
                 <h4>Bring your friends over!</h4>
                     <p>Dine with more than 4 people and get 30% of your total bill!</p>
                 </div>
-                <div>
+                <div class=deals id=deals3>
                 <h4>Terms and conditions*</h4>
                     <p>Deals are not stackable, only 1 to be used per dining session</p>
                 </div>
     </section>
     <section>
-        <h2 class="title"> Contact Us </h2>
-            <div>
+        <h2 class="title">Contact Us</h2>
+            <div class="contact" id="social">
             <h3>Our Social Media Platforms!</h3>
-                <img class="socialmedia" src="images/facebook.png"><img class="socialmedia" src="images/instagram.png"><img class="socialmedia" src="images/twitter.png">
+                <img class="socialmedia" src="images/facebook.png">
+                <img class="socialmedia" src="images/instagram.png">
+                <img class="socialmedia" src="images/twitter.png">
             </div>
-            <div>
-            <h3>Find Us </h3>
+            <div class="contact" id="address">
+            <h3>Find Us</h3>
                 <p> Tampines Street 71 Block 725 #01-11 </p>
             </div>
-            <div>
+            <div class="contact" id="number">
             <h3>Call Us</h3>
                 <p>91264638</p>
             </div>
-            <div>
+            <div class="contact" id="email">
             <h3 id="email">Email us! <a href="mailto:Ryansbeefnoodles@sample.com">Ryansbeefnoodles@sample.com</a></h3>
             </div>
     </section>
