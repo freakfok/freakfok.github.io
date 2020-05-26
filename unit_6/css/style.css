@@ -19,11 +19,7 @@ nav a{
   text-decoration:none;
   color:#000000;
   margin:1.8em;
-}
-
-a{
   background-color: #ff7900;
-  color: white;
   text-decoration: none;
   display:block;
   padding: 10px;
@@ -31,8 +27,23 @@ a{
   float:left;
 }
 
-a:hover {
+
+a{
+  background-color:#ff7900;
+  color: white;
+  text-decoration: none;
+  display:block;
+  padding: 10px;
+  width: 250px;
+  float:left;
+}
+
+nav a:hover {
   background-color:#aaaaaa;
+}
+
+a:hover {
+  background-color:#015421;
 }
 
 .deals{
@@ -170,7 +181,7 @@ p{
 
 }
 
-.subtitile{
+.subtitle{
 
 }
 
