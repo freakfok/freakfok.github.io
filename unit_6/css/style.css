@@ -24,7 +24,7 @@ header{
   width: 200%; 
   height: 200%;
   z-index: -1;
-  filter: blur(50);
+  filter: blur(2px);
 }
 #bg img {
   position: absolute; 
