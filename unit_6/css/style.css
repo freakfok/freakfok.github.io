@@ -19,13 +19,15 @@ header{
 
 #bg {
   position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
   z-index: -1;
-  filter: blur(2px);
-  filter:grayscale(30%);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3785889355742297) 48%), url(../images/noodle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter:grayscale(30%) blur(.5px);
 }
 #bg img {
   position: absolute; 
@@ -39,7 +41,7 @@ header{
 }
 
 body {
-  color:#333;
+  color:#FFFFFF;
   font-family: 'Lato', sans-serif;
   line-height: 1.3;
 }
@@ -61,7 +63,6 @@ nav a{
 
 
 a{
-  background-color:#ff7900;
   color: white;
   text-decoration: none;
   display:block;
@@ -70,11 +71,11 @@ a{
 }
 
 nav a:hover {
-  background-color:#AD974F;
+  background-color:#D21929;
 }
 
 a:hover {
-  background-color:#AD974F;
+  background-color:#D21929;
 }
 
 .deals{
@@ -102,6 +103,10 @@ a:hover {
   min-height:2em;
 }
 
+.description1 {
+
+}
+
 .contact {
   float: left;
   width:25%;
@@ -111,50 +116,49 @@ a:hover {
 }
 
 #ourmains {
-  background-color:#AC54FF;
-  background:url(../menumain.png);
+  background-color:#403F45;
   z-index: 1;
 }
 
 #addons {
-  background-color: #5485FF;
+  background-color: #403F45;
 }
 
 #beverages{
-  background-color: #47FFF2;
+  background-color: #403F45;
 }
 
 #history{
-  background-color: #F09224;
+  background-color: #403F45;
   text-align:center;
 }
 
 #deals1 { 
-  background-color: #69C76D;
+  background-color: #403F45;
  }
 
 #deals2 { 
-  background-color: #51D6D2;
+  background-color: #403F45;
  }
 
 #deals3 { 
-  background-color: #DF8A87;
+  background-color: #403F45;
  }
 
 #social{
-  background-color:#16C7BE;
+  background-color:#403F45;
 }
 
 #address{
-  background-color:#3E9490;
+  background-color:#403F45;
 }
 
 #number{
-  background-color:#02FA61;
+  background-color:#403F45;
 }
 
 #email{
-  background-color:#015421;
+  background-color:#403F45;
 }
 
 
@@ -165,10 +169,6 @@ a:hover {
   content: " ";
   clear:both;
   height: 0;
-}
-
-li{
-  text-align: center;
 }
 
 img {
@@ -192,15 +192,18 @@ h1{
 
 h2{
   font-size: 2em;
+  color:#D21929;
 }
 
 h3{
   font-size: 1.5em;
+  color:#D21929;
 
 }
 
 h4{
   font-size: 1em;
+  color:#D21929;
 
 }
 
@@ -214,14 +217,49 @@ p{
 
 }
 
-.subtitle{
-
-}
 
 ul {
   list-style: none;
 }
 
+.mains li {
+  margin:1em 0;
+}
 
+.mains h4{
+  float: left;
+  padding:.5rem 0;
+  text-transform:uppercase;
+}
 
+.addon h4{
+  float: left;
+  padding:.5rem 0;
+  text-transform:uppercase;
+}
+
+.addon li {
+  margin:1em 0;
+}
+
+.beverage h4{
+  float: left;
+  padding:.5rem 0;
+  text-transform:uppercase;
+}
+
+.beverage li {
+  margin:1em 0;
+}
+
+.price{
+  float: right;
+  padding:.5rem;
+}
+
+.description1{
+  clear: both;
+  border-top:2px solid;
+  padding:.5rem 0;
+}
 
