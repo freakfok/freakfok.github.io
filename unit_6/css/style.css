@@ -12,32 +12,20 @@ header{
   padding:1em;
   background-color: #eaeaea;
   position: fixed;
-  width:100;
+  width:100%;
   top:0;
   left:0;
+  z-index: 1;
 }
 
 #bg {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%;
-  z-index: -1;
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3785889355742297) 48%), url(../images/noodle.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   filter:grayscale(30%) blur(.5px);
 }
 #bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
   min-width: 50%;
-  min-height: 50%;
 }
 
 body {
@@ -80,87 +68,56 @@ a:hover {
 
 .deals{
   float: left;
-  width: 100%;
-  padding: 5em;
-  border: 10px solid white;
-  min-height:2em;
+  width: 33.33%;
+  padding:0 2em;
+  background: #D21929;
+  margin-top: 1em;
+}
 
+#deals{
+  padding: 5em 0;
+  background: #D21929;
 }
 
 .column   {
   float: left;
   width:33.33%;
-  min-height: 35em;
   padding: 3em;
-  border: 10px solid white;
 }
 
-.description {
-  float: left;
-  width: 100%;
-  padding: 5em;
-  border: 10px solid white;
-  min-height:2em;
+#history div{
+  width: 600px;
+  margin: auto;
 }
 
-.description1 {
+#history h2{
+  color:inherit;
+  margin:0;
+}
 
+#history{
+  background-color: white;
+  padding: 5em 0;
+  color:#333;
 }
 
 .contact {
   float: left;
   width:25%;
-  min-height: 15em;
-  padding: 3em;
-  border: 10px solid white;
+  padding: 2em;
 }
 
 #ourmains {
   background-color:#403F45;
   z-index: 1;
+  padding: 5em 0;
 }
 
-#addons {
-  background-color: #403F45;
-}
 
-#beverages{
-  background-color: #403F45;
-}
-
-#history{
-  background-color: #403F45;
-  text-align:center;
-}
-
-#deals1 { 
-  background-color: #403F45;
- }
-
-#deals2 { 
-  background-color: #403F45;
- }
-
-#deals3 { 
-  background-color: #403F45;
- }
-
-#social{
+footer{
   background-color:#403F45;
+  padding: 5em 0;
 }
-
-#address{
-  background-color:#403F45;
-}
-
-#number{
-  background-color:#403F45;
-}
-
-#email{
-  background-color:#403F45;
-}
-
 
 .clearfix:after {
   visibility: hidden;
@@ -172,8 +129,6 @@ a:hover {
 }
 
 img {
-  display: block;
-  margin: 0 auto;
   width: 720px;
 } 
 
@@ -185,6 +140,10 @@ img {
 
 }
 
+#latest{
+  color:white;
+}
+
 h1{
   font-size: 3em;
 
@@ -193,6 +152,7 @@ h1{
 h2{
   font-size: 2em;
   color:#D21929;
+  margin-left: 3rem;
 }
 
 h3{
@@ -203,8 +163,6 @@ h3{
 
 h4{
   font-size: 1em;
-  color:#D21929;
-
 }
 
 p{
