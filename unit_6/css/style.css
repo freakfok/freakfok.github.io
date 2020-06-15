@@ -188,6 +188,11 @@ h4{
 
 }
 
+#history div{
+  border-left: #D21929 2px solid;
+  padding-left: 2em;
+}
+
 p{
   font-size:1em;
 
