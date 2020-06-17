@@ -21,8 +21,10 @@ header{
   background: url(../images/noodle.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height:95vh;
+  min-height:95vh;
+  max-width:230vh;
   padding-top: 9em;
+  background-position: right;
 }
 header img {
   width: 8em;
@@ -30,7 +32,7 @@ header img {
 }
 
 #bg img{
-  width:22em;
+  width:40em;
 }
 
 body {
@@ -57,21 +59,10 @@ nav a{
 }
 
 
-a{
-  color: white;
-  text-decoration: none;
-  display:block;
-  padding: 10px;
-  float:left;
-}
-
 nav a:hover {
   background-color:#D21929;
 }
 
-a:hover {
-  background-color:#D21929;
-}
 
 .deals{
   float: left;
@@ -249,3 +240,38 @@ ul {
   padding:.5rem 0;
 }
 
+@media only screen and (max-width: 1050px) {
+.contact{
+  width: 50%;
+  min-height:9em;
+ }
+ .deals{
+  font-size: 1em;
+ }
+}
+
+@media only screen and (max-width: 740px) {
+.contact{
+  width: 50%;
+  min-height:12em;
+ }
+ .deals{
+  font-size: 1em;
+ }
+}
+
+@media only screen and (max-width: 615px) {
+.contact{
+  width: 100%;
+  min-height:12em;
+ }
+ .deals{
+  font-size: 1em;
+ }
+p{
+  width: 65%
+}
+.column{
+  width:100%;
+}
+}
